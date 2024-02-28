@@ -1,0 +1,64 @@
+/* slector */
+
+* {
+ text-align: center;
+ color: blue;
+}
+
+p {
+ text-align: center;
+ color: red;
+} 
+
+#para1 {
+ text-align: center;
+ color: rgb(16, 50, 131);
+}
+
+.center {
+ text-align: center;
+ color: rgb(62, 4, 4);
+}
+
+p.center {
+ text-align: center;
+ color: rgb(28, 168, 63);
+}
+body {
+ background-color: lightblue;
+}
+
+img{
+ width: 200px;
+}
+
+div {
+ border: 1px solid black;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-right: 150px;
+ margin-left: 80px;
+ background-color: lightblue;
+}
+
+div {
+ border: 1px solid black;
+ background-color: lightblue;
+ padding-top: 50px;
+ padding-right: 30px;
+ padding-bottom: 50px;
+ padding-left: 80px;
+}
+
+div {
+ background-color: lightgrey;
+ width: 300px;
+ border: 15px solid green;
+ padding: 50px;
+ margin: 20px;
+}
+
+p.ex1 {outline: dashed;}
+p.ex2 {outline: dotted red;}
+p.ex3 {outline: 5px solid yellow;}
+p.ex4 {outline: thick ridge pink;}
